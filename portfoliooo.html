@@ -1,0 +1,1565 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
+  </head>
+
+  <style>
+
+  *{
+     box-sizing:border-box;
+  }
+
+
+
+
+html{
+    font-size:100%;
+}
+
+ @media(min-width:640px){
+     body{
+      font-size:1rem;
+	 }
+ }
+  @media(min-width:960px){
+     body{
+      font-size:1.2rem;
+	 }
+ }
+  @media(min-width:1100px){
+     body{
+      font-size:1.5rem;
+	 }
+ }
+
+ @media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+ @media screen and (max-width:555px){
+   @-ms-viewport{
+       width:560px;
+   }
+
+}
+
+.home .header{
+    color:black;
+    padding-top:69px;
+
+}
+
+
+
+.intro{
+    padding-top:80px;
+       padding-left:40px;
+       padding-bottom:350px;
+        
+}
+
+
+
+.intro h1{
+     font-size: 57px;
+                text-shadow: 2px 2px 5px red;
+}
+
+.intro h2{
+     font-size: 45px;
+          text-shadow: 2px 2px 5px #FF00FF;
+
+}
+
+.intro h3{
+
+     font-size: 30px;
+           text-shadow: 2px 2px 5px #7FFF00;
+
+}
+
+.intro h4{
+color:black;
+     font-size: 25px;
+      text-shadow: 2px 2px 2px #00FFFF	;
+}
+
+.intro .btn{
+background-image: linear-gradient( 89.9deg,  rgba(178,253,238,0.96) -8.1%, rgba(207,244,254,1) 26.3%, rgba(207,244,254,0.48) 47.5%, rgba(254,219,243,0.63) 61.5%, rgba(254,219,243,1) 78.7%, rgba(254,207,210,1) 109.2% );text-shadow: 2px 2px 2px white;
+font-size:25px;
+font-weight:bold;
+padding:10px 20px;
+  box-shadow: 0 4px 4px  #00FFFF,  4px 6px 0 #FF00FF;
+
+}
+
+.intro .btn :hover{
+font-size:30px;
+}
+
+  
+ .glow {
+    display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+
+ 
+  border: none;
+  outline: none;
+  background-color: black;
+
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+*
+{
+margin: 0;
+padding: 0;
+}
+
+
+.home{
+ scroll-behavior: smooth;
+  background-image:url("1.jpg");
+
+ background-repeat: no-repeat;
+  
+  background-position: center center;
+  
+  
+  background-attachment: fixed;
+  
+  background-size: cover;
+  }
+
+
+.animate span {
+display: inline-block;
+}
+
+
+
+.animate span:nth-of-type(2) {
+animation-delay: .05s;
+}
+.animate span:nth-of-type(3) {
+animation-delay: .1s;
+}
+.animate span:nth-of-type(4) {
+animation-delay: .15s;
+}
+.animate span:nth-of-type(5) {
+animation-delay: .2s;
+}
+.animate span:nth-of-type(6) {
+animation-delay: .25s;
+}
+.animate span:nth-of-type(7) {
+animation-delay: .3s;
+}
+.animate span:nth-of-type(8) {
+animation-delay: .35s;
+}
+.animate span:nth-of-type(9) {
+animation-delay: .4s;
+}
+.animate span:nth-of-type(10) {
+animation-delay: .45s;
+}
+.animate span:nth-of-type(11) {
+animation-delay: .5s;
+}
+.animate span:nth-of-type(12) {
+animation-delay: .55s;
+}
+.animate span:nth-of-type(13) {
+animation-delay: .6s;
+}
+.animate span:nth-of-type(14) {
+animation-delay: .65s;
+}
+.animate span:nth-of-type(15) {
+animation-delay: .7s;
+}
+.animate span:nth-of-type(16) {
+animation-delay: .75s;
+}
+.animate span:nth-of-type(17) {
+animation-delay: .8s;
+}
+.animate span:nth-of-type(18) {
+animation-delay: .85s;
+}
+.animate span:nth-of-type(19) {
+animation-delay: .9s;
+}
+.animate span:nth-of-type(20) {
+animation-delay: .95s;
+}
+
+
+
+.one span {
+opacity: 0;
+transform: translate(-150px, -50px) rotate(-180deg) scale(3);
+animation: revolveScale 3s forwards;
+}
+
+@keyframes revolveScale {
+60% {
+transform: translate(20px, 20px) rotate(30deg) scale(.3);
+}
+
+100% {
+transform: translate(0) rotate(0) scale(1);
+opacity: 1;
+}
+}
+
+
+
+.two span {
+opacity: 0;
+transform: translate(200px, -100px) scale(2);
+animation: ballDrop 3s forwards;
+}
+
+@keyframes ballDrop {
+60% {
+transform: translate(0, 20px) rotate(-180deg) scale(.5);
+}
+
+100% {
+transform: translate(0) rotate(0deg) scale(1);
+opacity: 1;
+}
+}
+
+
+
+
+.three span {
+opacity: 0;
+transform: translate(-300px, 0) scale(0);
+animation: sideSlide 3s forwards;
+}
+
+@keyframes sideSlide {
+60% {
+transform: translate(20px, 0) scale(1);
+color: #b10e81;
+}
+
+80% {
+transform: translate(20px, 0) scale(1);
+color: #b10e81;
+}
+
+99% {
+transform: translate(0) scale(1.2);
+color: #00f0ff;
+}
+
+100% {
+transform: translate(0) scale(1);
+opacity: 1;
+color: #b10e81;
+}
+}
+
+.four span {
+opacity: 0;
+transform: translate(0, -100px) rotate(360deg) scale(0);
+animation: revolveDrop .3s forwards;
+}
+
+
+@keyframes revolveDrop {
+30% {
+transform: translate(0, -50px) rotate(180deg) scale(1);
+}
+
+60% {
+transform: translate(0, 20px) scale(.8) rotate(0deg);
+}
+
+100% {
+transform: translate(0) scale(1) rotate(0deg);
+opacity: 1;
+}
+}
+
+.five span {
+
+opacity: 0;
+transform: translate(0, -100px) rotate(360deg) scale(0);
+animation: dropVanish 3s forwards;
+}
+
+
+@keyframes dropVanish {
+30% {
+transform: translate(0, -50px) rotate(180deg) scale(1);
+}
+
+50% {
+transform: translate(0, 20px) scale(.8) rotate(0deg);
+opacity: 1;
+}
+
+80% {
+transform: translate(-100px, -100px) scale(1.5) rotate(-180deg);
+opacity: 0;
+}
+
+100% {
+transform: translate(0) scale(1) rotate(0deg);
+opacity: 1;
+}
+}
+
+
+
+.six span {
+opacity: 0;
+transform: rotate(-180deg) translate(150px, 0);
+animation: twister .5s forwards;
+}
+
+
+@keyframes twister {
+10% {
+opacity: 1;
+}
+100% {
+transform: rotate(0deg) translate(0);
+opacity: 1;
+}
+}
+
+
+
+.seven span {
+opacity: 0;
+transform: translate(-150px, 0) scale(.3);
+animation: leftRight 3s forwards;
+}
+
+
+@keyframes leftRight {
+40% {
+transform: translate(50px, 0) scale(.7);
+opacity: 1;
+color: #348c04;
+}
+
+60% {
+color: #0f40ba;
+}
+
+80% {
+transform: translate(0) scale(2);
+opacity: 0;
+}
+
+100% {
+transform: translate(0) scale(1);
+opacity: 1;
+}
+}
+
+.about{
+ background-image:url(3.jpg);
+       background-repeat: no-repeat;
+  
+  background-position: center center;
+  
+  
+  background-attachment: fixed;
+  
+  background-opacity:;
+  background-size: cover;
+}
+
+.navbar-brand {
+
+color:red;
+text-shadow: 2px 2px 2px black;
+}
+.navbar{
+ background-image:url(4.jpg);
+       background-repeat: no-repeat;
+  
+  background-position: center center;
+  
+  
+  background-attachment: fixed;
+  
+  background-size: cover;
+   padding-right:50px;
+   padding-left:50px;
+   width:100%;
+
+      
+}
+
+ .navbar-brand h3{
+ font-size:30px;
+color:red;
+text-shadow: 2px 2px 2px black;
+}
+.nav-item{
+   padding-right:10px;
+   padding-left:10px;
+}
+
+.navbar ul li a{
+  color: #000000;
+    font-weight: bold;
+    text-shadow:2px 2px 2px white;
+
+}
+
+  .navbar ul li.active a{
+  color: #00FFFF	;
+    text-shadow:2px 2px 2px black;
+
+  }
+
+  .navbar ul li:hover a{
+  color: #7CFC00	;
+  text-shadow:2px 2px 2px black;
+  font-size:30px;
+  
+ }
+
+.navbar .btn{
+font-size:25px;
+   padding-bottom:0px;
+    padding-top:0px;
+
+}
+
+
+
+.info .card{
+    background-color:black;
+
+}
+
+
+.info .card:hover{
+transform: scale(0.8); 
+      box-shadow: 0 10px 20px  #00FFFF,  10px 20px 0 #FF00FF;
+
+  }
+
+
+#about h2{
+font-size:65px;
+
+
+}
+.about h5{
+color:black;
+  font-size: 20px;
+      text-shadow: 2px 2px 2px white	;
+      }
+      h3{
+color:black;
+  font-size: 20px;
+      text-shadow: 2px 2px 2px white	;
+      }
+
+   .about .header a{
+color:#000000;	
+}
+
+
+ .about .header .btn{
+color:#000000;	
+}
+
+
+ .about .header a:hover{
+color:#1E90FF;	
+
+}
+
+ .about .hover figure img {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+ .about .hover figure:hover img {
+-webkit-transform: scale(0.8);
+transform: scale(0.8);
+}
+
+.about .header{
+    color:black;
+    padding-top:69px;
+
+}
+
+
+.resume{
+    background-image:url(3.jpg);
+       background-repeat: no-repeat;
+  
+  background-position: center center;
+  
+  
+  background-attachment: fixed;
+  
+  background-size: cover;
+  }
+
+  .projects{
+    background-image:url(3.jpg);
+       background-repeat: no-repeat;
+  
+  background-position: center center;
+  
+  
+  background-attachment: fixed;
+  
+  background-size: cover;
+  }
+
+  
+
+  .contact{
+    background-image:url(3.jpg);
+       background-repeat: no-repeat;
+  
+  background-position: center center;
+  
+  
+  background-attachment: fixed;
+  
+  background-size: cover;
+  }
+   
+
+.resume .header a{
+color:#000000;
+
+}
+
+
+ .resume .header .btn{
+color:#000000;	
+}
+
+
+ .resume .header a:hover{
+color:#1E90FF;	
+
+}
+
+.resume h2{
+  font-size:65px;
+     color:green;
+    
+    text-shadow: 2px 2px 2px white;
+	
+}
+
+.resume .card h2{
+  
+    color:blue;
+    font-family: "Times New Roman";
+    text-shadow: 2px 2px 2px white;
+	background-color:#000000;
+}
+.resume h2{
+      font-family: "Times New Roman";
+	  	font-size:50px;
+
+    color:blue;
+    text-shadow: 2px 2px 2px white;
+}
+
+
+.resume .card{
+    
+    color:white;
+    font-family: "Times New Roman";
+    text-shadow: 2px 2px 2px #8fd3f4;
+	background-color:#000000;
+}
+.resume .card:hover{
+    transform: scale(0.8) rotate(10deg); 
+   
+
+}
+
+.experience h5{
+    color:white;
+    font-family: "Times New Roman";
+    text-shadow: 2px 2px 7px red;
+	background-color:#000000;
+
+}
+
+.resume .header{
+    color:black;
+    padding-top:69px;
+
+}
+
+
+
+
+
+.work h1{
+       color:#FF00FF;
+       font-size:50px;
+       text-shadow: 2px 2px 2px black	;
+   }
+
+   .work a{
+
+	font-size:20px;
+	padding:2px;
+	color:white;
+	background-color:black;
+	border:1px solid white;
+	box-shadow:2px 2px 2px black;
+}
+
+
+
+.projects .header{
+    color:black;
+    padding-top:69px;
+
+}
+.work h2{
+	font-size:35px;
+	color:white;
+	text-shadow:2px 2px 2px black;
+}
+
+.projects .header a{
+color:#000000;	
+
+}
+
+
+.projects .header .btn{
+color:#000000;	
+}
+
+
+.projects .header a:hover{
+color:#1E90FF;	
+
+}
+
+.gallery .header{
+    color:black;
+    padding-top:69px;
+
+}
+
+.gallery .header a{
+color:#000000;	
+
+}
+
+
+.gallery .header .btn{
+color:#000000;	
+}
+
+
+.gallery .header a:hover{
+color:#1E90FF;	
+
+}
+
+.contact .header{
+    color:white;
+
+}
+
+
+.contact .header a{
+color:white;	
+
+}
+
+
+.contact .header .btn{
+color:#000000;	
+
+    background-color:white;
+}
+
+.contact .header .btn:hover{
+color:blue;	
+
+    background-color:black;
+}
+
+.contact .header a:hover{
+color:#1E90FF;	
+
+}
+
+.gallery{
+    background-image:url(3.jpg);
+       background-repeat: no-repeat;
+  
+  background-position: center center;
+  
+  
+  background-attachment: fixed;
+  
+  background-size: cover;
+  
+  }
+
+.gallery ul{
+  position:absolute;
+  margin:0;
+  padding:0;
+}
+
+.gallery li{
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  position:relative;
+  border:solid 12px #fff;
+  background:#fff;
+  box-shadow:0 0 15px 0px #555;
+  transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  top:50px;
+margin:30px;
+}
+
+
+.gallery li:hover{
+  top:0px;
+  opacity:0.5;
+}
+
+.gallery li:nth-child(1){
+    transform:rotate(10deg);
+}
+
+.gallery li:nth-child(2){
+    transform:rotate(-8deg);
+}
+
+.gallery li:nth-child(3){
+    transform:rotate(5deg);
+}
+
+.gallery li:nth-child(4){
+    transform:rotate(20deg);
+}
+
+.gallery li:nth-child(5){
+    transform:rotate(10deg);
+}
+
+.gallery li:nth-child(6){
+    transform:rotate(-5deg);
+}
+
+.gallery li:nth-child(7){
+    transform:rotate(-10deg);
+}
+
+.gallery li:nth-child(8){
+    transform:rotate(20deg);
+}
+.gallery li:nth-child(9){
+    transform:rotate(10deg);
+}
+
+.gallery li:nth-child(10){
+    transform:rotate(25deg);
+}
+
+.gallery li:nth-child(11){
+    transform:rotate(-10deg);
+}
+
+.gallery li:nth-child(12){
+    transform:rotate(15deg);
+}
+.gallery li:nth-child(13){
+    transform:rotate(10deg);
+}
+.gallery li:nth-child(14){
+    transform:rotate(-13deg);
+}
+.gallery li:nth-child(15){
+    transform:rotate(10deg);
+}
+.gallery li:nth-child(16){
+    transform:rotate(-8deg);
+}
+.gallery li:nth-child(17){
+    transform:rotate(-13deg);
+}
+.gallery li:nth-child(18){
+    transform:rotate(10deg);
+}
+
+
+
+
+.gallery p{
+  margin:-15px 0 0 0;
+}
+
+.gallery .light{
+  border-radius:50%;
+  position:absolute;
+  left:0;
+  right:0;
+ 
+  background:#fff;
+  filter:blur(100px);
+  opacity:0.3;
+  pointer-events:none;
+
+}
+.gallery img{
+    height:250px;
+    width:250px;
+}
+
+ .gallery h1{
+
+       color:black;
+       text-shadow: 2px 2px 2px #0000FF	;
+   }
+
+   #contact h2{
+font-size:65px;
+}
+
+
+.contact input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact input[type=submit] {
+  background-color: #4CAF50;
+   padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact input[type=submit]:hover {
+  background-color: #FFFAFA	;
+}
+
+.contact .container {
+  border-radius: 5px;
+  background-color: #000000	;
+  padding: 20px;
+}
+
+.contact .buttons {
+    text-align:center;
+ 
+}
+
+
+.contact .buttons a {
+ 
+  border: 2px solid black;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    background-color: black;
+  color: white;
+  	display:inline-block;
+	cursor:pointer;
+}
+
+
+
+.contact .buttons a:hover, a:active {
+  background-color: blue;
+  color: black;
+
+}
+
+#footer{
+    padding-top:1000px;
+}
+
+</style>
+
+  <body>
+
+
+
+  <nav class="navbar fixed-top navbar-expand-lg" id="navbar">    
+       <a class="navbar-brand " href="#home"><h3>Portfolio</h3></a>
+    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse justify-content-end " id="collapsibleNavbar">
+    <ul class="navbar-nav ">
+       <li class="nav-item hover">
+      <button type="button" class="btn " data-toggle="tooltip" data-placement="top" title="Go To Home Page"><a class="nav-link" href="#home" >Home</a></button>
+    </li>
+    <li class="nav-item hover">
+      <a class="nav-link" href="#about" >About</a>
+    </li>
+    <li class="nav-item hover">
+      <a class="nav-link " href="#resume" >Resume</a>
+    </li>
+    <li class="nav-item hover">
+      <a class="nav-link" href="#projects">Work</a>
+    </li>
+          <li class="nav-item hover">
+      <a class="nav-link " href="#contact" >Contact</a>
+     </li>
+      <li class="nav-item hover">
+      <a class="nav-link " href="#gallery" >Gallery</a>
+    </li>
+       </ul>
+     </div>
+  </nav>
+
+     
+                    
+<section class="home" id="home">
+    
+
+            	<div class="header"> 
+			             <div class="p-2 d-flex flex-row justify-content-between align-items-center  ">
+                           <div><i class="p fa fa-phone ">Phone: +918200663991</i> </div>
+                         <form method="post" action="mailto:n.sharma14y@gmail.com?Name=Name&Message=Message">
+							<input type="submit" id="submit"  class="btn btn-outline-primary" value="E-mail">
+                            </form>
+                            <a href="http://m.facebook.com/profile.php?id=100004698946002" target="_blank"><div><i class="f fa fa-facebook "></i></div></a>
+							<a href="http://wa.me/qr/5HUGZUBUBTDRP1" target="_blank"><div><i class="w fa fa-whatsapp "></i></div></a>
+							<a href="http://www.linkedin.com/in/nishant-sharma-b8234212b" target="_blank"><div><i class="l fa fa-linkedin "></i></div></a>
+							<a href="http://www.instagram.com/mr__sharma_02?nametag" target="_blank"><div><i class="i fa fa-instagram "></i></div></a>
+						</div>
+					</div>
+
+              <div class="intro" id="intro">
+                  <div class="container"> 
+  <h2><div class="animate seven">
+<span>H</span><span>e</span><span>Y</span><span>!</span><span>!</span><span>!</span> &nbsp;
+      
+</div></h2>
+  
+<h3><div class="animate one">
+<span>I</span> <span>A</span><span>m</span><span>,</span> &nbsp;    
+
+      
+</div></h3>
+
+<h1><div class="animate two">
+<span>N</span><span>I</span><span>S</span><span>H</span><span>A</span><span>N</span><span>T</span> &nbsp;
+<span>S</span><span>H</span><span>A</span><span>R</span><span>M</span><span>A</span>
+      
+</div></h1>
+
+<h4><div class="animate three">
+<span>I</span><span>'</span><span>m</span> <span>a</span> &nbsp;
+<span>F</span><span>R</span><span>O</span><span>N</span><span>T</span><span>-</span><span>E</span><span>N</span><span>D</span><span>-</span><span>W</span><span>E</span><span>B</span><span>-</span><span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
+      
+</div></h4><br>
+
+
+                        <div class="animate five">       
+                        <a href="#about"> 
+                                <button class="btn btn-outline"> 
+                                   <span>G</span><span>e</span><span>t</span>&nbsp;
+                                   <span>S</span><span>t</span><span>a</span><span>r</span><span>t</span><span>e</span><span>d</span>
+                                </button></a> 
+                          </div>
+                          
+</div>
+</div>  
+      <br>                   
+ </section>		
+ <hr>
+
+
+   
+   <section class="about" id="about"> 
+
+       <div class="container">
+            	<div class="header"> 
+			             <div class="p-2 d-flex flex-row justify-content-between align-items-center  ">
+                           <div><i class="p fa fa-phone ">Phone: +918200663991</i> </div>
+                         <form method="post" action="mailto:n.sharma14y@gmail.com?Name=Name&Message=Message">
+							<input type="submit" id="submit"  class="btn btn-outline-primary" value="E-mail">
+                            </form>
+                            <a href="http://m.facebook.com/profile.php?id=100004698946002" target="_blank"><div><i class="f fa fa-facebook "></i></div></a>
+							<a href="http://wa.me/qr/5HUGZUBUBTDRP1" target="_blank"><div><i class="w fa fa-whatsapp "></i></div></a>
+							<a href="http://www.linkedin.com/in/nishant-sharma-b8234212b" target="_blank"><div><i class="l fa fa-linkedin "></i></div></a>
+							<a href="http://www.instagram.com/mr__sharma_02?nametag" target="_blank"><div><i class="i fa fa-instagram "></i></div></a>
+						</div>
+					</div>
+                     </div>
+
+
+
+		   <div class="container">
+		    <h2 style="color:blue	;text-shadow:2px 2px 2px black	; font-size:70px ;font-family: serif;">About</h2><br>   
+
+			  <h5>I Am
+									 <span
+									  class="txt-rotate"
+								 data-period="2000"
+								 data-rotate='[ "a Fresher.", "looking for a platform to start my carrier with.", "eagerly waiting for new knowledge and experience to come in.", "a dediated and hard working person.", "a liabilty for sure!" ]'></span>
+								</h5><br><br>
+ <h3>D.O.B:- 14/01/1999</h3>
+  <h3>Current Location:- Jaipur</h3>
+					
+			<div class="row featurette">
+      <div class="col-md-7">
+	<br><h3 class="featurette-heading" style="font-size:30px"><u>My Objective is... </u><section class="text-muted">It’ll blow your mind.</section></h3>
+        <p class="lead" style="font-size:21px">My objective is to work for an organization which provides me the opportunity and platform to start my career with and to improve my skills and knowledge so that my skills can be sharp and i can be useful for the organization.</p>
+        <p class="lead" style="font-size:21px">An enthusiastic fresher with highly motivated and leadership skills having bachelors of engineering degree in Mechanical Engineering. Eager to learn new technologies and methodologies. Want to gain more knowledge and experience in web development and it sector. I already gain much knowledge about front end development in the corona times.</p>
+        
+                                
+      </div>
+      <div class="col-md-5">
+               <div class="hover">
+        <figure> <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="2.png" width="500" height="500" /></figure>
+          </div>
+      </div>
+    </div><br><br>
+
+		   <div class="info" id="info">
+				<div class="card-deck">
+					<div class="card bg-primary	">
+						<div style="background-color:black;" class="card-body text-center ">
+							<h3 style="font-weight:1000;text-shadow:2px 2px 5px blue;color:white;" class="card-text"><u>X-Class</u><h3>
+																			<h4 style="font-weight:500;text-shadow:2px 2px 5px red;color:white;" class="card-text   ">Saraswati International School, valsad<h4>
+							<p style="font-size:12px;text-shadow:2px 2px 5px green;color:white;" class="card-text">--2013 to 2014--</p> 
+						    <div class="progress">
+								<div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:85%">85%</div>
+							</div>
+       
+						</div>
+				   </div>
+				  <div class="card bg-primary">
+					 <div style="background-color:black;" class="card-body text-center">
+						<h3 style="font-weight:1000;text-shadow:2px 2px 5px blue;color:white;" class="card-text"><u>XII-Class</u></h3>
+													<h4 style="font-weight:500;text-shadow:2px 2px 5px red;color:white;" class="card-text   ">Saraswati International School, valsad<h4>
+						<p style="font-size:12px;text-shadow:2px 2px 5px green;color:white;" class="card-text">--2015 to 2016--</p>
+                        						<p style="color:#FF00FF;font-weight:800;text-shadow:2px 2px 2px white		 ;text-align:left;font-size:25px" class="card-text">Science(Maths)</p>
+
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:61%">61%</div>
+						 </div>
+					</div>
+				 </div> 
+				 <div class="card bg-primary">
+						<div style="background-color:black;" class="card-body text-center ">
+							<h3 style="font-weight:1000;text-shadow:2px 2px 5px blue;color:white;" class="card-text"><u>B-Tech</u><h3>
+							<h4 style="font-weight:500;text-shadow:2px 2px 5px red;color:white;" class="card-text   ">Swami Keshwanand Institute Of Technology and Management Gramotham,Jaipur<h4>
+							<p style="font-size:12px;text-shadow:2px 2px 5px green;color:white;" class="card-text">--2016 to 2020--</p> 
+                            <p style="color:#FF00FF	 ;text-align:left;font-size:25px;font-weight:800;text-shadow:2px 2px 2px white" class="card-text">Mechanical</p>
+						   <div class="progress">
+							<div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:65%">65%</div>
+
+						   </div>
+       
+						</div>
+				   </div>
+				</div>
+                </div>
+		
+	  <br>
+ </section>
+ <hr>
+ 
+
+ <section class="resume" id="resume">
+
+              <div class="container">    
+			  <div class="header"> 
+			             <div class="p-2 d-flex flex-row justify-content-between align-items-center  ">
+                           <div><i class="p fa fa-phone ">Phone: +918200663991</i> </div>
+                         <form method="post" action="mailto:n.sharma14y@gmail.com?Name=Name&Message=Message">
+							<input type="submit" id="submit"  class="btn btn-outline-primary" value="E-mail">
+                            </form>
+                            <a href="http://m.facebook.com/profile.php?id=100004698946002" target="_blank"><div><i class="f fa fa-facebook "></i></div></a>
+							<a href="http://wa.me/qr/5HUGZUBUBTDRP1" target="_blank"><div><i class="w fa fa-whatsapp "></i></div></a>
+							<a href="http://www.linkedin.com/in/nishant-sharma-b8234212b" target="_blank"><div><i class="l fa fa-linkedin "></i></div></a>
+							<a href="http://www.instagram.com/mr__sharma_02?nametag" target="_blank"><div><i class="i fa fa-instagram "></i></div></a>
+						</div>
+					</div>
+					<br><h2 style="color:#9932CC	;text-shadow:2px 2px 2px green	; font-size:65px;">RESUME</h2>
+				<p>This is my resume. Please go through it once.</p>
+				<div class="skills" id="skills">
+					 <div class="card">
+						<div class="card-body">
+							<u><h2 class="card-text">Skills:</h2></u>
+							<p class="card-text">These are the skills that i have inculcated in myself.</p>
+								<ul>
+								  <li>HTML</li>
+								  <li>CSS</li>
+								  <li>JAVASCRIPT</li>
+								  <li>BOOTSTRAP</li>
+                                  <li>React js</li>
+								  <li>C++</li>
+								  <li>MYSQL</li>
+								  <li>PYTHON</li>
+								  <li>AUTOCAD</li>
+								  <li>ANSYS</li>
+							      <li>HARD WORKING</li>
+								  <li>TEAM WORK</li>
+								  <li>COMMUNICATION</li>
+								  <li>QUICK LEARNER</li>
+								  <li>ACTIVE LISTENING</li>
+								  <li>LEADERSHIP</li>
+								  <li>CONFIDENCE</li>
+								  <li>PROBLEM SOLVING</li>
+								</ul>
+		</div>
+	</div>
+	</div><br><br><br>
+					
+					<div class="certificates" id="certificates">
+					<div class="card">
+						<div class="card-body">
+							<u><h2 class="card-text">CERTIFICATES:</h2></u><br>
+							
+								<ul>
+								  <li> The Ultimate MYSQL Bootcamp:Go from SQL Beginner to Expert<br>
+								  ~ by Udemy
+								  </li>
+								  <li>Programming For everybody(Getting Started With Python)<br>
+								      ~by University Of Michigan                   
+								  </li>
+
+								 <li>Python For Beginners:Learn Python Programming(Python 3)<br>
+								      ~by Udemy
+								  </li>
+								  
+								 <li>HTML and CSS: Building a single-page website<br>
+								      ~by Coursera
+								  </li>
+								  
+								 <li>Build your portfolio website with HTML and CSS<br>
+								      ~by Coursera
+								  </li>
+								  <li>Autocad </li>
+								  <li>Football</li>
+								  <li>Badminton</li>
+								</ul>
+							</div>
+						</div>
+		</div>
+
+
+<div class="experience" id="experience">
+		<u><br><br><h2 style="	background-color:#000000;">EXPERIENCE:</h2></u>
+    <div class="card-deck">
+    <div class="card ">
+      <div class="card-body text-center ">
+        <h5 style="font-weight:1000" class="card-text">HONDA CARS INDIA LTD, Greater Noida</h5>
+        <p style="color:white	;
+    text-shadow: 2px 2px 2px #FF00FF;
+	background-color:#000000;font-size:12px" class="card-text">May-2019 to June-2019</p> 
+        <p class="card-text">Internship worker, in vehicle quality department.I was under guidance of my mentor the whole time and i was given a task and a project to check the gaps and NF of cars under VQ department.</p>
+       
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-body text-center">
+        <h5 style="font-weight:1000" class="card-text">HYDRAULIC SEALING SOLUTION</h5>
+		   <p style="color:white	;
+    text-shadow: 2px 2px 2px #FF00FF;
+	background-color:#000000;font-size:12px" class="card-text">May-2018 to June-2018</p>
+		<p class="card-text">Internship worker, used CNC machine and various conventional machines for producing a finished product as needed and helped in packaging products(parts).Mostly the pipe hoses and parts related to it was produced.</p>
+      </div>
+    </div>  
+	    </div>   
+  </div><br><br>
+					
+					
+					<div class="interests" id="interests">
+					<div class="card">
+						<div class="card-body">
+							<u><h2 class="card-text">Interests:</h2></u><br>
+							<ul>
+									<li>Football</li>
+									<li>web developins </li>
+										<li>Badminton</li>
+									<li>Watching TV series </li>
+									<li>Workouts </li>
+									<li>Listening Music </li>
+							</ul>
+						</div>
+					</div>
+				</div><br><br>
+
+
+				<div class="languages" id="languages">
+					<div class="card">
+						<div class="card-body">
+						<u><h2 class="card-text">Languages Known:</h2></u><br>
+							<ul>
+									<li>English</li>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped progress-bar-animated bg-#00FFFF" style="width:80%"></div>
+									</div>
+									<li>Hindi </li>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped progress-bar-animated bg-#00FFFF" style="width:100%"></div>
+									</div>
+									<li>Gujarati </li>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped progress-bar-animated bg-#00FFFF" style="width:50%"></div>
+									</div>
+								
+							</ul>
+						</div>
+					</div>
+			</div>
+</div>
+  <br>
+</section>
+ <hr>
+
+   <section class="projects" id="projects">
+  <div class="container">
+  <div class="header"> 
+						
+			             <div class="p-2 d-flex flex-row justify-content-between align-items-center  ">
+                           <div><i class="p fa fa-phone ">Phone: +918200663991</i> </div>
+                         <form method="post" action="mailto:n.sharma14y@gmail.com?Name=Name&Message=Message">
+							<input type="submit" id="submit"  class="btn btn-outline-primary" value="E-mail">
+                            </form>
+                            <a href="http://m.facebook.com/profile.php?id=100004698946002" target="_blank"><div><i class="f fa fa-facebook "></i></div></a>
+							<a href="http://wa.me/qr/5HUGZUBUBTDRP1" target="_blank"><div><i class="w fa fa-whatsapp "></i></div></a>
+							<a href="http://www.linkedin.com/in/nishant-sharma-b8234212b" target="_blank"><div><i class="l fa fa-linkedin "></i></div></a>
+							<a href="http://www.instagram.com/mr__sharma_02?nametag" target="_blank"><div><i class="i fa fa-instagram "></i></div></a>
+						</div>
+</div>
+  <div class="work"> 
+
+ <h1>My Projects</h1>
+
+                          <br>  <h2>1.PORTFOLIO:</h2>
+                            <a href="https://pbg1dgfhoqaqoccm8w2e8g-on.drv.tw/portfolio0 website/" target="_blank">Portfolio<br></a><br>						
+							
+
+
+							<h2>2.RESTARAUNT:</h2>
+							<a href="https://pbg1dgfhoqaqoccm8w2e8g-on.drv.tw/restaurant website/restro.html" target="_blank">Restaraunt<br></a><br>
+						
+							<h2>3.WILDLIFE:</h2>
+							<a href="https://pbg1dgfhoqaqoccm8w2e8g-on.drv.tw/wildlife2/wlf.html" target="_blank">1.Home page<br></a><br>
+						
+
+							<h2>4.CLOCK:</h2>
+							<a href="https://pbg1dgfhoqaqoccm8w2e8g-on.drv.tw/clock website/ghadi.html" target="_blank">Clock<br></a><br>
+
+							<h2>5.CALCULATOR:</h2>
+							<a href="https://pbg1dgfhoqaqoccm8w2e8g-on.drv.tw/calculator website/calculator.html" target="_blank">Calculator<br></a><br>
+
+
+							<h2>6.TIMER:</h2>
+							<a href="https://pbg1dgfhoqaqoccm8w2e8g-on.drv.tw/timer website/timer.html" target="_blank">Timer<br></a><br>
+
+					
+
+							<h2>7.FORM:</h2>
+							<a href="https://pbg1dgfhoqaqoccm8w2e8g-on.drv.tw/form website/Form.html" target="_blank">Form</a>
+
+
+ </div>
+  </div>
+   <br>
+
+ </section>        
+  <hr>
+
+  <section class="contact" id="contact"><br><br>
+<div class="container">
+
+<div class="header"> 
+			             <div class="p-2 d-flex flex-row justify-content-between align-items-center  ">
+                           <div><i class="p fa fa-phone ">Phone: +918200663991</i> </div>
+                         <form method="post" action="mailto:n.sharma14y@gmail.com?Name=Name&Message=Message">
+							<input type="submit" id="submit"  class="btn btn-outline-primary" value="E-mail">
+                            </form>
+                            <a href="http://m.facebook.com/profile.php?id=100004698946002" target="_blank"><div><i class="f fa fa-facebook "></i></div></a>
+							<a href="http://wa.me/qr/5HUGZUBUBTDRP1" target="_blank"><div><i class="w fa fa-whatsapp "></i></div></a>
+							<a href="http://www.linkedin.com/in/nishant-sharma-b8234212b" target="_blank"><div><i class="l fa fa-linkedin "></i></div></a>
+							<a href="http://www.instagram.com/mr__sharma_02?nametag" target="_blank"><div><i class="i fa fa-instagram "></i></div></a>
+						</div>
+					</div>
+  <form action="/action_page.php" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+<h2 class="w3-center"  style="color:white	;text-shadow:2px 2px 2px #9932CC;font-family:serif; font-size:65px;">Contact Me</h2>
+ 
+<div class="w3-row w3-section">
+  <div class="w3-col" style="color:white;width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="color:white;width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="last" type="text" placeholder="Last Name">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="color:white;width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="color:white;width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="phone" type="text" placeholder="Phone">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="color:white;width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="message" type="text" placeholder="Message">
+    </div>
+</div>
+
+<p class="w3-center">
+<button class="w3-button w3-section w3-blue w3-ripple" > Send </button>
+</p>
+</form><br>
+
+  </div>
+
+ <br> <div class="buttons">
+  <a href="https://drive.google.com/file/d/1rUXQGWjjwUPn0Q2abVzRn_n75MSf9-Se/view?usp=sharing" target="_blank">Download resume</a>
+</div>
+<br>
+</section>
+<hr>
+
+   <section class="gallery" id="gallery">
+ <div class="container">
+ <div class="header"> 
+			             <div class="p-2 d-flex flex-row justify-content-between align-items-center  ">
+                           <div><i class="p fa fa-phone ">Phone: +918200663991</i> </div>
+                         <form method="post" action="mailto:n.sharma14y@gmail.com?Name=Name&Message=Message">
+							<input type="submit" id="submit"  class="btn btn-outline-primary" value="E-mail">
+                            </form>
+                            <a href="http://m.facebook.com/profile.php?id=100004698946002" target="_blank"><div><i class="f fa fa-facebook "></i></div></a>
+							<a href="http://wa.me/qr/5HUGZUBUBTDRP1" target="_blank"><div><i class="w fa fa-whatsapp "></i></div></a>
+							<a href="http://www.linkedin.com/in/nishant-sharma-b8234212b" target="_blank"><div><i class="l fa fa-linkedin "></i></div></a>
+							<a href="http://www.instagram.com/mr__sharma_02?nametag" target="_blank"><div><i class="i fa fa-instagram "></i></div></a>
+						</div>
+						</div>
+ <h1>My Photo Gallery</h1>
+ </div>
+ <ul id="u" style=" background-image:url(3.jpg);
+       background-repeat: no-repeat;
+  
+  background-position: center center;
+  
+  
+  background-attachment: fixed;
+  
+  background-size: cover;padding-left:30px;">
+
+  <li><img src="5.png"/>
+    <p>image #1</p></li>
+  <li><img src="6.png" />
+    <p>image #2</p></li>
+  <li><img src="7.png" />
+    <p>image #3</p></li>
+         <br><br>
+         <li><img src="10.png"/>
+     <p>image #4</p></li>
+     <li><img src="13.jpg" />
+    <p>image #5</p></li>
+    <li><img src="15.png" />
+    <p>image #6</p></li>
+     <br><br>    
+    </li> <br><br><br><br>
+
+    <hr>
+
+</ul>
+
+<div class="light"></div>
+
+  <br>
+  <br><footer class="container"  id="footer">
+        <p>&copy; 2020-2021 updated &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer><br>
+ </section>
+   
+
+
+   
+
+
+
+
+
+
+
+
+
+   <div class=" menu" id="menu">
+<button onclick="topFunction()" id="myBtn" title="Go to top" class="glow">Top</button>
+</div>
+
+ 
+
+<script>
+
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+  }
+
+  var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+	
+
+ </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+   </body>
+   </html>
